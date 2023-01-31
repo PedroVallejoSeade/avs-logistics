@@ -9,14 +9,14 @@ class Servidor {
         // Middlewares
 
         // Rutas de la aplicacion
-        this.routes();
+        this.rutas();
     }
 
     middlewares(){
         
     }
 
-    routes() {
+    rutas() {
         this.app.get('/', (req, res) => {
             res.send('Hello World')
           })
