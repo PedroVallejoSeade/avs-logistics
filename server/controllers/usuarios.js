@@ -16,10 +16,12 @@ const usuariosPost = (req = request, res = response) => {
 }
 
 const usuariosPut = (req = request, res = response) => {
+    const id = req.params.id;
     const body = req.body;
     
     res.json({
         msg: 'put API - controlador' ,
+        id : id,
         body
     });
 }
