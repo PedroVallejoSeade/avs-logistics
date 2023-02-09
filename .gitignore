@@ -39,7 +39,7 @@ jspm_packages
 .DS_Store
 
 # Exclude environment files
-.env
-.env.example
-.env.local
-.env.staging 
+# .env
+# .env.example
+# .env.local
+# .env.staging
